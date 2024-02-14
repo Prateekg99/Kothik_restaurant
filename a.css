@@ -1,0 +1,181 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+html,body{
+    background:linear-gradient(to right,#CCBEB2,#eadabc,#CCBEB2);
+    overflow-x: hidden;
+}
+.footer{
+    position: relative;
+    width: 100%;
+    bottom: 0%;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: white;
+    pad: 10px 0px 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}   
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.colm{
+    flex-basis: 25%;
+    margin-top: 2em;
+    padding:10px;
+}
+.colm img{
+    margin-top: 2em;
+}
+.colm:nth-child(2),.colm:nth-child(3){
+    flex-basis: 15%;
+}
+.logo{
+    width: 180px;
+    margin-bottom: 30px;
+}
+.colm h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0px;
+}  
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid#ccc;
+    margin-bottom: 50px;
+}
+form.far{
+    font-size: 18px;
+    margin-right: 10px;
+}
+form input{
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+form button .fas{
+    font-size: 16px;
+    color: #fff;
+}
+.social-ions .fav{
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.social-ions .fav:hover{
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    border: 2PX solid grey;
+    border-radius: 50px;
+    text-align: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.social-ions #one:hover{
+    color: #fff;
+    background: blue;
+
+}
+.social-ions #two:hover{
+    color: rgb(249, 249, 249);
+    background: #466def;
+
+}
+.social-ions #three:hover{
+    color: #47ed52;
+    background: #fff;
+
+}
+.social-ions #four:hover{
+    color: #fff;
+    background: #f80404;
+
+}
+.social-ions #five:hover{
+    color: #fff;
+    background: #1808f3;
+
+}
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    margin: 20px auto;
+}
+.Copyright{
+    text-align: center;
+}
+.underline{
+    width: 100%;
+    height: 2px;
+    background: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+}
+.underline span{
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+@keyframes moving {
+    0%{
+        left: -20px;
+    }    
+    100%{
+        left: 100px;
+    }
+}
+@media (max-width: 700px){
+    footer{
+        bottom: unset;
+    }
+}

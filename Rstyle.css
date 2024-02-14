@@ -1,0 +1,376 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html,body{
+   height: 100%;
+   width: 100%;
+}
+#main1{
+    height: 100%;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+}
+#overlay1{
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+#section-1{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1521917441209-e886f0404a7b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1460&q=80);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+}
+#navbar{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 99;
+    
+}
+.part-1{
+    position: relative;
+    left: -10%;
+    font-family: voyage; 
+    padding: 1em;
+    color: rgb(240, 240, 196);
+    text-shadow:0px 1px 3px #B5720A;
+}
+.part{
+    width: 30%;
+    font-size: 1.3rem;
+}
+.part-2 a{
+    text-decoration: none;
+    color: #fff;
+     margin-left: 1.1em;
+     font-family: voyage;
+}
+.text-part {
+    position: absolute;
+    bottom: 50%;
+    text-align: center;
+}
+.text-part h1{
+    color:#D5D3AD;
+    text-shadow: 0px 2px 3px #B5720A;
+    font-size: 7rem;
+    text-align: center;
+    font-weight: 400;
+    /* font-family: Cinzel; */
+    font-family:Myteri Script PERSONAL USE ONLY;
+}
+button{
+ padding: .5em 1em;
+ font-size: 1.2rem;
+ font-weight: 500;
+ background-color: transparent;
+ border: 2px solid #dcc77f;
+ color: #fff;
+ border-radius: .5rem;
+ text-transform: uppercase;
+}
+.text-part button a{
+    font-size:1.2rem ;
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    background-color: #050505d3;
+    border: none;
+    color: rgb(251, 220, 181);
+}
+.booking-section{
+    width: 60%;
+    height: 15%;
+    max-height: 20%;
+    background-color: #f3f3f3;
+    display: flex;
+    position: absolute;
+    bottom: 12.5%;
+    z-index: 9999999;
+}
+.part1bs{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.01em;
+    margin: 0.6em;
+    /* background-color: #fff; */
+    border-right: 1px solid rgb(191, 187, 187);
+}
+.part1bs a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #000;  
+}
+.bg-orange{
+    background-color: orangered;
+    font-size: 1.1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.part1bs input{
+    padding: 0.5em .5em;
+    font-size: 1rem;
+    border: 2px solid black;
+}
+#userip {
+    gap: 5px;
+    width: 50%;
+    /* height: %; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    border: 2px solid black;
+    padding: 0.5em .5em;
+}
+#userip input{
+    border: none;
+    padding: 0;
+    width: 50%;
+    background-color: transparent;
+}
+#overlay2{
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+#section-2{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background:linear-gradient(to right,#CCBEB2,#eadabc,#CCBEB2);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#mid-part{
+    width: 85%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+#mid-part h2{
+    margin-top: 3em;
+    width: 90%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #3e2f21;
+}
+#mid-part span>h2{
+    width: 10em;
+    color: rgb(140, 0, 0);
+    font-size: 1.8rem;
+}
+#secondpart{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sleft-1{
+ height: 100%;
+ width: 50%;
+ display: flex;
+}
+#box-1{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=449&q=80);
+    background-size: cover;
+    margin-right: 1em;
+}
+#box-2{
+    height: 100%;
+    width: 60%;
+}
+#one{
+    height: 50%;
+    width: 100%;
+    background-color: darkgreen;
+    background-image: url(https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+
+}
+#two{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(28, 32, 28);
+    background-image: url(https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1980&q=80);
+    background-size: cover;
+    background-position: right;
+    margin-top: 1em;
+}
+#sright-1{
+     height: 100%;
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    
+}
+#sright-1 h1{
+    align-items: center;
+color: #392008;
+}
+#mid-part span>h1{
+   color: chocolate;
+}
+#sright-1 p{
+    width: 70%;
+    font-size: 1.2rem;
+    color: #000000;
+    opacity: 0.5;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cover-overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #00000073;
+    position: absolute;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#container-1{
+    height: 100%;
+    width: 55%;
+    background-color: #050505d3;
+}
+.box-part-1{
+    height: 60%;
+    background-image: url(https://images.unsplash.com/photo-1589301760014-d929f3979dbc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box-part-2{
+    height: 40%;
+    background-color: #20201a;
+    background-image: url(https://images.unsplash.com/photo-1457460866886-40ef8d4b42a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-position: bottom;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+#container-2{
+    height: 100%;
+    width: 45%;
+}
+.mid-part-1{
+    height: 30%;
+    width:100%;
+    background-image: url(https://images.unsplash.com/photo-1551024709-8f23befc6f87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1257&q=80);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mid-part-2{
+    height: 70%;
+    width:100%;
+    background-image: url(https://i.pinimg.com/564x/df/07/44/df0744c52df96e1e3d6699c71e34677d.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container-3{
+    height: 100%;
+    width: 55%;
+    background-color: firebrick;
+}
+.box-part-3{
+    height: 50%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1516211881327-e5120a941edc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-part-4{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+.end-1{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1585104213608-3f65359b908a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80);
+    background-size: cover;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.end-2{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1502719414926-613118be79d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-size: cover;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.container h2{
+    color: #fff;
+    z-index: 9999999999;
+    font-size: 3rem;
+    font-family: voyage;
+    text-align: center;
+}
+
+

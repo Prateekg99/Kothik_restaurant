@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #CDBFB6;
+}
+#main2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* position: relative; */
+    cursor: none;
+    /* background-color: rgb(240, 231, 213); */
+    /* background-image: url(./images/BACKGROUND\ .jpg); */
+    object-fit: cover;
+    background-color:#CCBEB2;
+}
+#chef{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: 1%;
+    top: 3%;
+    filter: drop-shadow(2px 5px 5px  #413520);
+}
+ #png1{
+    position: absolute;
+    width: 400px;
+    left: 10%;
+    bottom: 10%;
+ }
+ #png2{
+    position: absolute;
+    width: 400px;
+    bottom: 10%;
+    right: 7%;
+ }
+
+.elem{
+    position: relative;
+    /* position: absolute; */
+    height: 50vh;
+    width:24vw;
+    display: flex;
+    justify-content:space-between;
+    word-spacing:10px;
+    /* gap: 3000px; */
+    align-items: center;
+    /* background-color: aqua; */
+}
+.elem img{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    scale: 0;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all linear 0.2s;
+    /* z-index: 9999; */
+    mix-blend-mode:multiply;
+    /* mix-blend-mode:normal; */
+}
+
+
+
+#box{
+    position: absolute;
+    top: 17%;
+    left: 10%;
+    width: 70%;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    gap:30px;
+    background-color: transparent;
+}
+.elem h1{
+    position: absolute;
+    font-size: 70px;
+    font-family:"Momcake";
+    font-weight: 900;
+    -webkit-text-stroke-color: #ffffff;
+    color: #fff;
+    /* color: linear-gradient(rgb(186, 186, 125),green, pink); */
+    -webkit-text-stroke-width: 2px;
+    /* mix-blend-mode:difference; */
+    /* z-index: 999; */
+
+
+    background: linear-gradient(#B53D89,#DA3B47,#EEB61D);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#elem3 h1{
+    position: absolute;
+     padding-right: 200px;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: transparent;
+}
+#overlay1{
+    background-color: transparent;
+}
+#overlay2{
+    background-color: transparent;
+}
+#cursor{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    /* cursor: none; */
+    z-index: 99999;
+}
